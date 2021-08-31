@@ -42,7 +42,7 @@
     z-index: -9999999;
   }
   .developer-title {
-    font-family: "good_times";
+    font-family:bebas neu + montserrat; ;
     margin-top: 30px;
   }
   .developer-subtitle {
@@ -56,11 +56,11 @@
   *{
     margin: 0px;
     padding: 0px;
-    font-family: cursive;
+    font-family: bebas neu + montserrat;
   }
   .main{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/image/b.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/image/bg2.jpeg);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
@@ -72,9 +72,17 @@
     display: flex;
 padding: 40px 120px;
   }
+  
 .nav-logo img{
  width: 150px;
+ 
 }
+.logo img{
+  height:60px;
+  width:64px;
+  margin-top: 20px;
+}
+
 .nav-links{
   flex: 1;
 
@@ -89,6 +97,7 @@ padding: 40px 120px;
   list-style: none;
   display: inline-block;
   float: right;
+  color: #f31023;
   padding: 8px 25px;
 }
 .nav-links ul a{
@@ -100,18 +109,19 @@ padding: 40px 120px;
   content: '';
   width: 0%;
   height: 2px;
-  border-color: #E9088D;
+  border-color: #1215a7;
   display: block;
   margin: auto;
 transition: .5s;}
 .nav-links ul li:hover::after{
   width: 100px;
+  color: #1215a7;
 }
 .btn{
-  color: #E9088D;
+  color: #eaeaf1;
   padding: 10px 20px;
   border: 0;  
-  border-color: #ebe8ea;
+  border-color: #0a0a0a;
   font-weight: bold;
   cursor: pointer;
 }
@@ -122,10 +132,11 @@ transition: .5s;}
 .bannertitle h1{
   font-size: 64px;
   margin-bottom: 30px;
-  color: #fff;
+  color: rgb(235, 210, 212);
+ 
 }
 .bannertitle h1 span{
-  color: #E9088D;
+  color: #f31023;
 }
 .glow {
   font-size: 80px;
@@ -138,10 +149,10 @@ transition: .5s;}
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px rgb(219, 197, 240), 0 0 20px rgb(166, 146, 252), 0 0 30px #1330a3, 0 0 40px #051881, 0 0 50px #0d0329, 0 0 60px #e60073, 0 0 70px #e60073;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px rgb(106, 50, 236), 0 0 30px #3d15ce, 0 0 40px #1619a3, 0 0 50px #1f0566, 0 0 60px #090230, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
 
@@ -151,7 +162,7 @@ transition: .5s;}
   }
   .bannertitle h1{
     font-size: 50px;
-    color: #fff;
+    color: rgb(224, 13, 13);
   }
   .nav-bar{
     padding: 10px 30px;
