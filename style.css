@@ -142,7 +142,7 @@ transition: .5s;}
 .bannertitle h1 span{
   color: #f31023;
 }
-p {
+/* p {
   text-align: center;
   font-size: 60px;
   margin-top: 0px;
@@ -151,12 +151,67 @@ p {
 }
 p script{
   font-family: bebas neu + montserrat;
-  color: #f31023;
+  color: #f31023; */
 
+/* } */
+.countdown-container {
+  background: #0633ad;
+  padding: 24px;
+  color: #070707;
+  font-family:bebas neu + montserrat ;
+  width: 1000px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  box-shadow: 0 4px 22px -8px rgba(0, 0, 0, 0.6);
+}
+
+.countdown-container .countdown-heading {
+  text-align: center;
+  font-size: 32px;
+  margin: 8px 0;
+}
+
+.countdown-container .countdown-details {
+  text-align: center;
+}
+
+.timer {
+  background: #000102;
+  color: #f3eded;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  border-radius: 10px;
+}
+
+.timer .number {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.timer .unit {
+  color: #faf5f5;
+}
+
+.countdown-btn {
+  background: #050505;
+  text-decoration: none;
+  padding: 16px 32px;
+  display: block;
+  margin: 32px -24px -24px -24px;
+  color: #f1faee;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 500ms;
+}
+
+.countdown-btn:hover {
+  background: #f01b1b;
 }
 .glow {
-  font-size: 80px;
-  color: #fff;
+  font-size: 60px;
+  color: rgb(230, 18, 18);
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
